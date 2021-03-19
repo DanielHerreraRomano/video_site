@@ -5,8 +5,60 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proyecto video site</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Mulish:wght@500&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <h1>Platzi video</h1>
+    <header class="header">
+        <img class="header__img" src="https://raw.githubusercontent.com/platzi/PlatziVideo/feature/react/src/assets/static/logo-platzi-video-BW2.png" alt="Logo de plazi video">
+
+        <div class="header__menu">
+            <div class="header__menu--profile">
+                <img src="https://img.icons8.com/ios/50/ffffff/user--v3.png" href="https://icons8.com/icon/u05i13Fgasru/usuario" alt="Perfil">
+                
+                <p>Perfil</p>
+            </div>
+            <ul>
+                <li><a href="/">Cuenta</a></li>
+                <li><a href="/">Cerrar sesión</a></li>
+
+            </ul>
+
+        </div>
+
+    </header>
+
+    <section class="main">
+        <h2 class="main__title">¿Que quieres ver hoy?</h2>
+        <input class="input" type="text" placeholder="Buscar">
+    </section>
+
+    <section class="Carrusel">
+        <div class="Carrusel__container">
+            <div class="Carrusel-item">
+                <img class="Carrusel-item__img" src="https://images.pexels.com/photos/3853513/pexels-photo-3853513.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" alt="imagen">
+                <div class="Carrusel-item__details">
+                    <img src="https://img.icons8.com/flat-round/64/ffffff/play--v1.png" alt="play"/>
+                    <img src="https://img.icons8.com/flat-round/64/ffffff/plus.png" alt="plus"/>
+                </div>
+                <p class="Carrusel-item__details--title">Título descriptivo</p>
+                <p class="Carrusel-item__details--subtitle">2021 19 14</p>
+            </div>
+            <div class="Carrusel-item">
+                
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <ul>
+            <li>Contáctanos</li>
+            <li>Política de privacidad</li>
+            <li>Términos y condiciones</li>
+        </ul>
+    </footer>
+
 </body>
 </html>
