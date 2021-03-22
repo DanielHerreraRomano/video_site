@@ -83,7 +83,6 @@ ul:hover {
 .Carrusel{
     width: 100%;
     overflow: scroll;
-    padding: 30px;
     position: relative;
 }
 .Carrusel__container {
