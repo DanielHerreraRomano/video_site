@@ -3,22 +3,25 @@ html {
   color: white;
 }
 body {
-  margin: 0px;
+  margin: 0;
   background-color: black;
   font-family: "Mulish", sans-serif;
 }
 .header {
-  background-color: black;
-  width: 100%;
-  height: 80px;
-  display: flex;
-  justify-content: space-between;
   align-items: center;
+  background-color: black;
+  color: white;
+  display: flex;
+  height: 100px;
+  justify-content: space-between;
+  top: 0px;
+  width: 100%;
 }
 .header__img {
-  width: 200px;
   margin-top: 10px;
+  margin-left: 30px;
   margin-bottom: 10px;
+  width: 200px;
 }
 .header__menu {
   margin-right: 30px;
@@ -50,16 +53,23 @@ ul:hover {
   margin-right: 8px;
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 .header__menu--profile img {
   margin-right: 8px;
+  width: 40px;
 }
 .header__menu--profile p {
   margin: 0px;
   color: white;
 }
 .main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 300px;
+  flex-direction: column;
+  border-radius: 0px 0px 40px 40px;
 }
 .main__title {
   color: white;
@@ -145,4 +155,37 @@ ul:hover {
 .Carrusel-item__details:hover {
     opacity: 1;
     color: white;
+}
+.carousel-item:hover .carousel-item__details {
+  opacity: 1;
+}
+
+.carousel-item__details--title {
+  color: white;
+  margin: 5px 0px 0px 0px;
+}
+
+.carousel-item__details--subtitle {
+  color: white;
+  font-size: 8px;
+  margin: 3px 0px;
+}
+.footer {
+  align-items: center;
+  background-color: black;
+  display: flex;
+  height: 100px;
+  width: 100%;
+}
+
+.footer a {
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  padding-left: 30px;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
 }

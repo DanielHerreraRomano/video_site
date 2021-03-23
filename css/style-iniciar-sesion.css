@@ -141,4 +141,8 @@ text-decoration: underline;
         padding: 0px;
         width: 100%;
     }
+    .footer {
+        align-items: flex-start;
+        flex-direction: column;
+    }
 }
