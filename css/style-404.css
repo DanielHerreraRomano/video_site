@@ -1,0 +1,85 @@
+html {
+  font-size: 62.5%;
+  color: white;
+}
+body {
+  margin: 0;
+  background-color: black;
+  font-family: "Mulish", sans-serif;
+}
+.header__img {
+  margin-top: 10px;
+  margin-left: 30px;
+  margin-bottom: 10px;
+  width: 200px;
+}
+
+.notfound {
+  font-family: "Mulish", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  overflow: hidden;
+  padding: 10px30px;
+  min-height: calc(100vh - 200px);
+}
+.notfound__title {
+  color: white;
+  font-size: 150px;
+  height: 10px;
+}
+.notfound__subtitle {
+  color: white;
+  font-size: 15px;
+  height: 100px;
+  padding-top: 30px;
+}
+.animated {
+  animation-duration: 2.5s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+}
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.pulse {
+  animation-name: pulse;
+  animation-duration: 1.2s;
+}
+
+.footer {
+  align-items: center;
+  background-color: black;
+  display: flex;
+  height: 100px;
+  width: 100%;
+}
+
+.footer a {
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  padding-left: 30px;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+@media only screen and (max-width: 600px) {
+  .main__description--title {
+    font-size: 30px;
+  }
+
+  .footer {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}

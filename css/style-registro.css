@@ -20,7 +20,7 @@ body {
     margin-left: 30px;
 }
 .login {
-    background: linear-gradient(black,gray);
+    background: linear-gradient(black,#0F0F0F);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -122,7 +122,7 @@ body {
     align-items: center;
     height: 100px;
     width: 100%;
-    background-color:gray ;
+    background-color:#0F0F0F ;
 }
 .footer a {
     color: white;
